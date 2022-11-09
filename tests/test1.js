@@ -442,7 +442,7 @@ async function testTwo() {
     console.log(error);
     throw new Error(error);
   } finally {
-    // await driver.quit();
+    await driver.quit();
   }
 }
 
